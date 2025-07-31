@@ -4,6 +4,7 @@ import Statistic from "../pages/Statistic";
 import Dashboard from "../pages/Dashboard";
 import Home from "../pages/Home";
 import Products from "../pages/Products";
+import CommonCategories from "../pages/CommonCategories";
 
 export const router = createBrowserRouter([
     {
@@ -18,7 +19,12 @@ export const router = createBrowserRouter([
                         path: "/",
                         element: <Products></Products>,
                         loader: () => fetch("./productData.json"),
-                    }
+                    },
+                    {
+                        path: "/:category",
+                        element: <CommonCategories></CommonCategories>,
+                        loader: () => fetch("./productData.json"),
+                    },
                 ]
             },
             {

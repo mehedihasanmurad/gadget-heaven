@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Product = ({ product }) => {
-    const { product_id, product_image, product_title, price } = product;
+const SingleCategories = ({ category }) => {
+    const { product_id, product_image, product_title, price } = category;
     return (
         <div className="card border lg:w-[310px] mx-5 border-slate-200 shadow-sm">
             <figure className=''>
@@ -24,4 +24,4 @@ const Product = ({ product }) => {
     );
 };
 
-export default Product;
+export default SingleCategories;

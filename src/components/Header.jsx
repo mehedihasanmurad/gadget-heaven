@@ -11,7 +11,7 @@ const Header = () => {
 
     const bgClass = bgClasses[location.pathname] || "bg-white"
     return (
-        <div className={`${bgClass} rounded-lg relative`}>
+        <div className={`${bgClass} rounded-lg`}>
             {/* navbar ba header part */}
             <div className={`navbar shadow-sm md:px-10 `}>
                 <div className="navbar-start">
@@ -52,8 +52,8 @@ const Header = () => {
                                 Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                             </p>
                             <a href="#_" className="px-7 py-2.5 relative rounded-full group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
-                                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
-                                <span class="relative group-hover:text-white">Shop Now</span>
+                                <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
+                                <span className="relative group-hover:text-white">Shop Now</span>
                             </a>
                             {/* <button className="px-5 py-2 btn-primary bg-white text-primary hover:bg-primary hover:text-white rounded-full font-bold duration-1000">Show Now</button> */}
                         </div>
