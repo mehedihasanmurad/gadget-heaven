@@ -1,13 +1,10 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData} from 'react-router';
 import Product from '../components/Product';
 
 const Products = () => {
     const productsData = useLoaderData();
-    const params = useParams();
-    console.log(params)
-
-    // const filtered = category ? allData.filter(p => p.category === category) : allData; 
+    console.log(productsData)
     
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-7'>
