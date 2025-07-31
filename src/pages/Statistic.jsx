@@ -2,8 +2,8 @@ import React from 'react';
 
 const Statistic = () => {
     return (
-        <div>
-            <h1>This is Statistic page</h1>
+        <div className='max-w-7xl mx-auto my-10'>
+            <h1 className='text-2xl font-bold'>Statistic</h1>
         </div>
     );
 };
