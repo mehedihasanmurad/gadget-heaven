@@ -3,15 +3,23 @@ import MainLayout from "../Layout/MainLayout";
 import Statistic from "../pages/Statistic";
 import Dashboard from "../pages/Dashboard";
 import Home from "../pages/Home";
+import Products from "../pages/Products";
 
 export const router = createBrowserRouter([
     {
-        path: '/',
+        path: "/",
         element: <MainLayout></MainLayout>,
         children: [
             {
-                index: true,
+                path: "/",
                 element: <Home></Home>,
+                children: [
+                    {
+                        path: "/",
+                        element: <Products></Products>,
+                        loader: () => fetch("./productData.json"),
+                    }
+                ]
             },
             {
                 path: "/statistic",

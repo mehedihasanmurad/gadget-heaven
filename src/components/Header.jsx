@@ -2,7 +2,6 @@ import React from 'react';
 import { IoCartOutline } from "react-icons/io5";
 import { CiHeart } from "react-icons/ci";
 import { NavLink, useLocation } from 'react-router';
-import bannerImg from '../assets/banner.jpg';
 
 const Header = () => {
     const location = useLocation();
@@ -46,13 +45,17 @@ const Header = () => {
             {/* hero part */}
             <div>
                 <div className="bg-[#9538E2] rounded-lg">
-                    <div className="flex justify-center text-center pt-10 pb-44">
+                    <div className="flex justify-center text-center pt-10 pb-20">
                         <div className="max-w-4xl">
                             <h1 className="text-2xl text-white md:text-5xl font-bold">Upgrade Your Tech Accessorize with Gadget Heaven Accessories</h1>
                             <p className="py-6 text-white">
                                 Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!
                             </p>
-                            <button className="px-5 py-2 btn-primary bg-white text-primary hover:bg-primary hover:text-white rounded-full font-bold">Show Now</button>
+                            <a href="#_" className="px-7 py-2.5 relative rounded-full group overflow-hidden font-medium bg-purple-50 text-purple-600 inline-block">
+                                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-black group-hover:h-full opacity-90"></span>
+                                <span class="relative group-hover:text-white">Shop Now</span>
+                            </a>
+                            {/* <button className="px-5 py-2 btn-primary bg-white text-primary hover:bg-primary hover:text-white rounded-full font-bold duration-1000">Show Now</button> */}
                         </div>
                     </div>
                 </div>

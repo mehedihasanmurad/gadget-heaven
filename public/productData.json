@@ -1,0 +1,167 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "Apple MacBook Air",
+    "product_image": "https://i.ibb.co/ns2fpdzt/laptop-1846277-1280.jpg",
+    "category": "Laptop",
+    "price": 1199.99,
+    "description": "Lightweight, powerful laptop with the Apple M2 chip.",
+    "specification": ["Apple M2", "8GB RAM", "256GB SSD"],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "product_id": 2,
+    "product_title": "Dell XPS 13",
+    "product_image": "https://i.ibb.co/zhF5jF7d/rohan-d8kp7-EPg-Am-Q-unsplash.jpg",
+    "category": "Laptop",
+    "price": 999.99,
+    "description": "Compact and premium Windows laptop for professionals.",
+    "specification": ["Intel i7", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 3,
+    "product_title": "iPhone 14 Pro",
+    "product_image": "https://i.ibb.co/LhD2t1D8/iphones-7479304-1280.jpg",
+    "category": "Phone",
+    "price": 1099.0,
+    "description": "Latest iPhone with Dynamic Island and A16 chip.",
+    "specification": ["A16 Bionic", "128GB", "48MP Camera"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 4,
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://i.ibb.co/xKZMGhFP/samsung-5188631-1280.jpg",
+    "category": "Phone",
+    "price": 899.0,
+    "description": "Flagship Samsung phone with stunning display and camera.",
+    "specification": ["Snapdragon 8 Gen2", "256GB", "120Hz AMOLED"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 5,
+    "product_title": "Apple Watch Series 9",
+    "product_image": "https://i.ibb.co/ZRTjmpRs/apple-2362149-1280.jpg",
+    "category": "Smartwatch",
+    "price": 399.99,
+    "description": "Smartwatch with fitness tracking and health monitoring.",
+    "specification": ["Heart Rate", "Blood Oxygen", "GPS"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 6,
+    "product_title": "Samsung Galaxy Watch ",
+    "product_image": "https://i.ibb.co/yFKn7K1n/clock-3179167-1280.jpg",
+    "category": "Smartwatch",
+    "price": 329.0,
+    "description": "Smartwatch with sleep tracking and body composition analysis.",
+    "specification": ["AMOLED Display", "Samsung Health", "Waterproof"],
+    "availability": false,
+    "rating": 4.3
+  },
+  {
+    "product_id": 7,
+    "product_title": "iPad Pro 12.9",
+    "product_image": "https://i.ibb.co/G3Bwgfpz/pen-4337521-1280.jpg",
+    "category": "Tablet",
+    "price": 1099.0,
+    "description": "Tablet with M2 chip, Liquid Retina XDR display.",
+    "specification": ["Apple M2", "128GB", "Face ID"],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 8,
+    "product_title": "OnePlus 11",
+    "product_image": "https://i.ibb.co/XrsFW114/amar-syazwan-rosman-s-Nd-BU8si-Kn0-unsplash.jpg",
+    "category": "Phone",
+    "price": 699.0,
+    "description": "Powerful Android phone with fast charging and clean UI.",
+    "specification": ["Snapdragon 8 Gen2", "100W Charging", "120Hz"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 9,
+    "product_title": "Apple AirPods Pro 2",
+    "product_image": "https://i.ibb.co/tTH5KhB6/mac-4833254-1280.jpg",
+    "category": "Accessories",
+    "price": 249.0,
+    "description": "Wireless earbuds with active noise cancellation.",
+    "specification": ["ANC", "Spatial Audio", "MagSafe Charging"],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 10,
+    "product_title": "Logitech MX Master 3S",
+    "product_image": "https://i.ibb.co/pBZ0pW5N/computer-mouse-113100-1280.jpg",
+    "category": "Accessories",
+    "price": 99.0,
+    "description": "High-end productivity mouse with silent clicks.",
+    "specification": ["Bluetooth", "Multi-Device", "USB-C"],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 11,
+    "product_title": "Lenovo ThinkPad X1 ",
+    "product_image": "https://i.ibb.co/7JQNDfWK/laptop-6771039-1280.jpg",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "Business laptop with legendary ThinkPad durability.",
+    "specification": ["Intel i7", "16GB RAM", "1TB SSD"],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 12,
+    "product_title": "Google Pixel 7",
+    "product_image": "https://i.ibb.co/kgcMNsN0/mobile-4710790-1280.jpg",
+    "category": "Phone",
+    "price": 599.0,
+    "description": "Google's cleanest Android experience with smart AI.",
+    "specification": ["Tensor G2", "128GB", "50MP Camera"],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 13,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co/RGKy0zGG/sony-a7-7517301-1280.jpg",
+    "category": "Accessories",
+    "price": 349.0,
+    "description": "Industry-leading noise cancelling headphones.",
+    "specification": ["ANC", "40h Battery", "LDAC"],
+    "availability": false,
+    "rating": 4.9
+  },
+  {
+    "product_id": 14,
+    "product_title": "Apple MacBook Pro M3",
+    "product_image": "https://i.ibb.co/N6Z8x5t0/macbook-pro-2381729-1280.jpg",
+    "category": "Laptop",
+    "price": 1899.0,
+    "description": "Powerful performance with M3 chip for professionals.",
+    "specification": ["Apple M3", "16GB RAM", "512GB SSD"],
+    "availability": true,
+    "rating": 5.0
+  },
+  {
+    "product_id": 15,
+    "product_title": "Samsung Galaxy Tab S8",
+    "product_image": "https://i.ibb.co/HMDfFF5/tablet-791051-1280.jpg",
+    "category": "Tablet",
+    "price": 799.0,
+    "description": "Premium Android tablet with S-Pen support.",
+    "specification": ["Snapdragon 8 Gen1", "11” Display", "128GB"],
+    "availability": true,
+    "rating": 4.6
+  }
+]
